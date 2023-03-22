@@ -1,0 +1,485 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+/* .....header start.... */
+.header
+{
+    height: 50px;
+    background: grey;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: left;
+    line-height: 50px;
+    margin: 0 80px;
+    
+    
+    
+    
+    
+
+   
+   
+}
+.header .x
+{
+    border: 1px solid black;
+    
+    
+}
+.header .x1
+{
+    width: 40%;
+    height: 50px;
+    background-color: aqua;
+    /* display: flex; */
+    
+   
+    
+    
+}
+.header .p
+{
+    margin-right:20px;
+}
+
+.header .x .fa-brands,.fa-solid
+ {
+    font-size: 20px;
+    font-weight: bold;
+ 
+} 
+
+
+
+.header .x2
+{
+    height: 50px;
+    width: 20%;
+    background:blue;
+   
+}
+.header .x3
+{
+    height: 50px;
+    width: 20%;
+    background:orange;
+}
+
+.header .x4
+{
+    height: 50px;
+    width: 20%;
+    background:lightgreen;
+}
+
+.header .x2
+{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 20px;
+
+}
+.header .x3
+{
+    font-family:  SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 18px;
+}
+
+.header .x4
+{
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 18px;
+}
+
+/* .....header start.... */
+
+/* ......nav start..... */
+
+.nav
+{
+    height: 150px;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.nav .y1 {
+    height: 150px;
+    width: 30%;
+    background-color:red;
+ 
+}
+.nav .y1 .nav-brand
+{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-psd/logo-mockup-metal-psd-wall-realistic-design_53876-130201.jpg?size=626&ext=jpg&ga=GA1.1.814633012.1678083451&semt=ais);
+    background-size: 100% 150%; 
+    background-repeat: no-repeat;
+    
+}
+
+
+
+.y2
+ {
+    height: 150px;
+    width: 50%;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.y2 ul
+{
+list-style: none;
+}
+ 
+.y2 a
+{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: grey;
+}
+
+.y2 a:hover
+{
+    color: black;
+}
+
+.y2 .same
+{
+    display: inline;
+    position: relative;
+    margin-right: 30px;
+}
+
+
+
+.y2 .dame
+{
+    display: none;
+    position: absolute;
+    top: 200%;
+    right:-100px;
+    height: 100px;
+    width: 350%;
+    position: absolute;
+    z-index: 1;
+    background: rgb(245, 234, 234);
+}
+
+
+
+.y2 .same:hover .dame
+{
+    display: block;
+    
+}
+
+
+
+
+.nav .y3{
+    height: 150px;
+    width: 20%;
+    background-color: orange;
+    position: relative;
+  
+  
+   
+}
+
+ .y3 .enq
+{
+    height:60px;
+    width:150px;
+    background-color: #ff668a;
+    color: white;
+    position: absolute;
+    margin: 40px 100px;
+    justify-content: center;
+    text-align: center;
+    line-height: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10%;
+    position: relative;
+}
+
+.y3 .enq:hover
+{
+    background-color: #eb2553;
+}
+
+/* .........nav end........ */
+
+/* ...........content pro start..... */
+
+.content_pro
+{
+    height: 500px;
+    border: 1px solid;
+    background-image: url(home-interior-designing-service-500x500.webp);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 150px 10px;
+    
+   
+   
+}
+
+.content_pro .design
+{
+    height:180px;
+    border: 1px solid;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.design h1
+{
+    font-size: 80px;
+    color: rgb(65, 19, 19);
+    text-shadow: 1px 4px white;
+    
+}
+
+.content_pro .ser
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 5%;
+    background-color: #ff668a;
+    justify-content: center;
+    text-align: center;
+    line-height:50px;
+    position: absolute;
+    margin: 60px 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-shadow:2px 1px white;
+    animation: dav 5s linear infinite;
+}
+.content_pro .ser:hover
+{
+    background-color: #eb2553;
+}
+
+@keyframes dav
+{
+    0%{
+        background: yellowgreen;
+    }
+    40%{
+        background: blueviolet;
+    }
+    60%{
+        background: lightgreen;
+    }
+    100%{
+        background: lightseagreen;
+    }
+}
+ /* .........content pro end.....  */
+ 
+/* -- .........content_view. start.....  */
+
+
+.content_view
+{
+    height: 500px;
+    width: 100%;
+    /* background: lightblue; */
+    padding: 30px 50px;
+    display: flex;
+    /* padding: 10px; */
+
+    
+
+}
+
+.content_view .menu
+{
+   height: 450px;
+   width: 33.33%;
+   /* border: 1px solid; */
+  
+  
+}
+
+.menu .sign
+{
+    height: 100px;
+    width: 100%;
+    /* background: lightcoral; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+   
+    
+}
+
+.menu .sign .gol
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 80%;
+    background: rgba(231, 225, 225, 0.5);
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+
+}
+.fa-pen-to-square,.fa-shower,.fa-bed
+{
+    font-size: 30px;
+    color: #ff668a
+}
+
+.menu .sign .gol .fa-pen-to-square:hover
+{
+    background-color: #ff668a;
+    color: white;
+}
+
+.content_view .menu .text, .title
+{
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans U  nicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.content_view .menu .extra
+{
+    background-color: white;
+}
+
+.content_view .menu .extra, .title
+{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+}
+
+.content_view .menu .extra p
+{
+    position: relative;
+}
+
+.content_view .menu .extra p::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 5px;
+    bottom: -10px;
+    background:#ff668a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu .title
+{
+    height: 100px;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.menu .text
+{
+    height: 150px;
+    width: 100%;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.menu .extra
+{
+    height: 100px;
+    width: 100%;
+    background-color:lime;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
